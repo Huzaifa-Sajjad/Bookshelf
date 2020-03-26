@@ -1,0 +1,18 @@
+{
+  "name": "bookshelf",
+  "version": "1.0.0",
+  "description": "MERN Stack application with JWT authentication which allows users to create accounts and add in book reviews.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Huzaifa Sajjad Malik",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "json-web-token": "^3.2.0",
+    "mongoose": "^5.9.6"
+  }
+}
