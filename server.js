@@ -5,6 +5,7 @@ const connectDB = require("./config/dbConnection");
 const userRoute = require("./routes/user");
 const authRoute = require("./routes/auth");
 const reviewRoute = require("./routes/review");
+const porfileRoute = require("./routes/profile");
 
 const app = express();
 
@@ -17,6 +18,7 @@ connectDB();
 app.use("/api/user", userRoute);
 app.use("/api/auth", authRoute);
 app.use("/api/review", reviewRoute);
+app.use("/api/profile", porfileRoute);
 
 //Listening to the Server
 app.listen(3000, () => console.log("Node Server Up At Port 3000"));
